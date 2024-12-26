@@ -1,0 +1,40 @@
+import React from 'react'
+import './/home.css'
+
+function home() {
+  return (
+    <div className="TRCmainmainzero0">
+                <div className="maintrczero">
+                    <div className="maintrczero1">
+                        <p><b><main>Thakral Repairing Center</main></b></p>
+                        <p><main>Main market</main></p>
+                        <p style={{ fontSize: "45px", marginTop: "-30px", textAlign: "center", marginLeft: "40px" }}>Near shree ram mandir,Jamalpur.(Bhiwani 127035,Haryana) </p>
+                    </div>
+                </div>
+
+
+            </div>
+  )
+}
+
+export default home;
+<style>[
+.TRCmainmainzero0{
+    text-align: center;
+   background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-image: url(https://t4.ftcdn.net/jpg/08/39/46/31/240_F_839463151_ncje0n22HIpHLWiRi2nixCo8p0RFRgsz.jpg);
+   
+    
+  }
+  .maintrczero1{
+    text-align: center;
+    
+    height: auto;
+    padding-top: 10px;
+    font-size: 60px;
+   
+  }  
+}
+  </style>
